@@ -8,6 +8,7 @@
         String id = Request.Query["id"];
 
         string connectionString = "Data Source=LAPTOP-VRHBS533\\SQLEXPRESS;Initial Catalog=crud_oprCore;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+
         using (SqlConnection connection = new SqlConnection(connectionString))
         {
             connection.Open();
