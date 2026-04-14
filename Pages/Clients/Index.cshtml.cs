@@ -35,6 +35,7 @@ namespace DemoCrudWebApplication_DotNet_Core.Pages.Clients
                                 clients.created_at = reader.GetDateTime(5).ToString();
 
                                 listClients.Add(clients);
+                                
                             }
                         }
                     }
