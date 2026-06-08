@@ -65,7 +65,7 @@ namespace DemoCrudWebApplication_DotNet_Core.Pages.Clients
             if (clients.Id.Length == 0 || clients.name.Length == 0 || clients.email.Length == 0 ||
                 clients.phone.Length == 0 || clients.address.Length == 0)
             {
-                errorMessage = "All the fields are required !";
+                errorMessage = "All the fields are required!";
                 return;
             }
 
