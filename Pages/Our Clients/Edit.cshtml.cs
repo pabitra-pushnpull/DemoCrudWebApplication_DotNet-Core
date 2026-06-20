@@ -46,9 +46,9 @@ namespace DemoCrudWebApplication_DotNet_Core.Pages.Clients
                      }
                  }
              }
-             catch (Exception ex)
+             catch (Exception e)
              {
-                 errorMessage = ex.Message;
+                 errorMessage = e.Message;
                  return;
             }
         }
