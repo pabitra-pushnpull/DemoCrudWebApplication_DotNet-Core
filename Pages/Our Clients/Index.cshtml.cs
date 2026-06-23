@@ -44,7 +44,7 @@ namespace DemoCrudWebApplication_DotNet_Core.Pages.Clients
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Exception Found : " + ex.ToString());
+                Console.WriteLine("Exception Found: " + ex.ToString());
 
             }
         }
